@@ -38,6 +38,8 @@ To get started with the project, follow these steps:
    CREATE DATABASE hotel_db;
 USE hotel_db;
 
+2. **Create a Table:**
+ ```sql
 CREATE TABLE reservations (
    reservation_id INT AUTO_INCREMENT PRIMARY KEY,
    guest_name VARCHAR(100),
@@ -45,6 +47,8 @@ CREATE TABLE reservations (
    contact_number VARCHAR(15),
    reservation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+```
 
 git clone https://github.com/GihanJeewantha/hotel-reservation-system.git
 cd hotel-reservation-system
